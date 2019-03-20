@@ -1,0 +1,2 @@
+docker run --name ansible -it shoepping/ansible bash
+docker run --name ansible -it shoepping/ansible ansible -i inventory.yaml -u shoepping all -m shell -a "ls -l /root"
